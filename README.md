@@ -1,141 +1,205 @@
-<p align="center">
-  <a href="https://postiz.com/" target="_blank">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/765e9d72-3ee7-4a56-9d59-a2c9befe2311">
-    <img alt="Postiz Logo" src="https://github.com/user-attachments/assets/f0d30d70-dddb-4142-8876-e9aa6ed1cb99" width="280"/>
-  </picture>
-  </a>
-</p>
+# NAVRINE Content OS
 
-<p align="center">
-<a href="https://opensource.org/license/agpl-v3">
-  <img src="https://img.shields.io/badge/License-AGPL%203.0-blue.svg" alt="License">
-</a>
-</p>
+AI-native content planning, generation, review, scheduling, distribution, and learning system for NAVRINE and managed brands.
 
-<h3 align="center"><strong><a href="https://github.com/gitroomhq/postiz-agent">NEW: check out Postiz agent CLI! perfect for OpenClaw and other agents</a></strong></h3>
-<div align="center">
-  <strong>
-  <h2>Your ultimate AI social media scheduling tool</h2><br />
-  <a href="https://postiz.com">Postiz</a>: An alternative to: Buffer.com, Hypefury, Twitter Hunter, etc...<br /><br />
-  </strong>
-  Postiz offers everything you need to manage your social media posts,<br />build an audience, capture leads, and grow your business.
-</div>
+NAVRINE Content OS is built on top of the open-source Postiz codebase and keeps Postiz's mature social-channel infrastructure while replacing the generic scheduler mindset with a NAVRINE-native content operating system.
 
-<div class="flex" align="center">
-  <br />
-  <img alt="Instagram" src="https://postiz.com/svgs/socials/Instagram.svg" width="32">
-  <img alt="Youtube" src="https://postiz.com/svgs/socials/Youtube.svg" width="32">
-  <img alt="Dribbble" src="https://postiz.com/svgs/socials/Dribbble.svg" width="32">
-  <img alt="Linkedin" src="https://postiz.com/svgs/socials/Linkedin.svg" width="32">
-  <img alt="Reddit" src="https://postiz.com/svgs/socials/Reddit.svg" width="32">
-  <img alt="TikTok" src="https://postiz.com/svgs/socials/TikTok.svg" width="32">
-  <img alt="Facebook" src="https://postiz.com/svgs/socials/Facebook.svg" width="32">
-  <img alt="Pinterest" src="https://postiz.com/svgs/socials/Pinterest.svg" width="32">
-  <img alt="Threads" src="https://postiz.com/svgs/socials/Threads.svg" width="32">
-  <img alt="X" src="https://postiz.com/svgs/socials/X.svg" width="32">
-  <img alt="Slack" src="https://postiz.com/svgs/socials/Slack.svg" width="32">
-  <img alt="Discord" src="https://postiz.com/svgs/socials/Discord.svg" width="32">
-  <img alt="Mastodon" src="https://postiz.com/svgs/socials/Mastodon.svg" width="32">
-  <img alt="Bluesky" src="https://postiz.com/svgs/socials/Bluesky.svg" width="32">
-</div>
+> Helping brands scale with tech.
 
-<p align="center">
-  <br />
-  <a href="https://docs.postiz.com" rel="dofollow"><strong>Explore the docs »</strong></a>
-  <br />
+## What This Product Is
 
-  <br />
-  <a href="https://youtube.com/@postizofficial" rel="dofollow"><strong>Watch the YouTube Tutorials»</strong></a>
-  <br />
-</p>
+NAVRINE Content OS is not just a social scheduler.
 
-<p align="center">
-  <a href="https://platform.postiz.com">Register</a>
-  ·
-  <a href="https://discord.postiz.com">Join Our Discord (devs only)</a>
-  ·
-  <a href="https://docs.postiz.com/public-api">Public API</a><br />
-</p>
-<p align="center">
-  <a href="https://www.npmjs.com/package/@postiz/node">NodeJS SDK</a>
-  ·
-  <a href="https://www.npmjs.com/package/n8n-nodes-postiz">N8N custom node</a>
-  ·
-  <a href="https://apps.make.com/postiz">Make.com integration</a>
-</p>
+It is designed around a closed content loop:
 
-<br /><br />
+`Research → Opportunity → Angle → Plan → Generate → Adapt → Review → Schedule → Publish → Measure → Learn → Iterate`
 
-## 🔌 See the leading Postiz features
+The system should help NAVRINE and client brands turn expertise, market intelligence, projects, experiments, and business insight into consistent high-quality distribution.
 
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=BdsCVvEYgHU" target="_blank">
-    <img alt="Postiz" src="https://github.com/user-attachments/assets/8b9b7939-da1a-4be5-95be-42c6fce772de" />
-  </a>
-</p>
+## NAVRINE Context
 
-## ✨ Features
+Read [`NAVRINE_CONTEXT.md`](./NAVRINE_CONTEXT.md) for the canonical brand and editorial context, including:
 
-| ![Image 1](https://github.com/user-attachments/assets/a27ee220-beb7-4c7e-8c1b-2c44301f82ef) | ![Image 2](https://github.com/user-attachments/assets/eb5f5f15-ed90-47fc-811c-03ccba6fa8a2) |
-| ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
-| ![Image 3](https://github.com/user-attachments/assets/d51786ee-ddd8-4ef8-8138-5192e9cfe7c3) | ![Image 4](https://github.com/user-attachments/assets/91f83c89-22f6-43d6-b7aa-d2d3378289fb) |
+- NAVRINE positioning
+- target audiences
+- content pillars
+- brand voice
+- content quality rules
+- platform behavior
+- commercial intent
+- truthfulness constraints
+- operating loop
 
-### Our Sponsors
+## NAVRINE Tool Map
 
-| Sponsor |                                  Logo                                   | Description     |
-|---------|:-----------------------------------------------------------------------:|-----------------|
-| [Hostinger](https://www.hostinger.com/vps/docker/postiz?ref=postiz) | <img src=".github/sponsors/hostinger.png" alt="Hostinger" width="500"/> | Hostinger is on a mission to make online success possible for anyone – from developers to aspiring bloggers and business owners |
-| [Virlo](https://dev.virlo.ai/?ref=postiz) | <img src="https://github.com/user-attachments/assets/25182598-5344-45fc-b9cd-e4cfa16aabfd" alt="Virlo" width="500"/> | Virlo is the #1 social media trend spotting and all-in-one GTM tool for teams leveraging short-form video |
-| [ChatbotX](https://chatbotx.io/?ref=postiz) | <img src="https://github.com/user-attachments/assets/0aa6b058-9a64-46d3-bc26-337abc51737d" alt="ChatbotX" width="500"/> | The ManyChat alternative that you can self-host, white-label, and resell to your clients. Bring your own OpenClaw, Hermes, or Claude agents! |
+Read [`NAVRINE_TOOLS.md`](./NAVRINE_TOOLS.md) for the tool contract and agent behavior.
 
-![Bronze Tier](https://opencollective.com/postiz/tiers/main-repository-bronze-tier.svg?avatarHeight=36&width=600&button=false)
+The existing Postiz-derived runtime provides lower-level capabilities for:
 
-# Intro
+- connected channel discovery
+- workspaces/groups
+- platform/provider schema validation
+- content calendar inspection
+- scheduled post settings
+- scheduling and publishing
+- image generation
+- video generation
+- media import
 
-- Schedule all your social media posts (many AI features)
-- Measure your work with analytics.
-- Collaborate with other team members to exchange or buy posts.
-- Invite your team members to collaborate, comment, and schedule posts.
-- At the moment, there is no difference between the hosted version and the self-hosted version
-- Perfect for automation (API) with platforms like N8N, Make.com, Zapier, etc.
+NAVRINE adds a higher-level mental model around those capabilities:
 
-## Tech Stack
+- `brandContext`
+- `contentResearch`
+- `opportunityScore`
+- `contentPlan`
+- `generateContent`
+- `adaptContent`
+- `qualityReview`
+- `scheduleContent`
+- `performanceReview`
+- `learningLoop`
 
-- Pnpm workspaces (Monorepo)
-- NextJS (React)
-- NestJS
-- Prisma (Default to PostgreSQL)
-- Temporal
-- Resend (email notifications)
+## Runtime Agent
 
-## Quick Start
+The Mastra agent is registered as:
 
-To have the project up and running, please follow the [Quick Start Guide](https://docs.postiz.com/quickstart)
+```text
+NAVRINE Content OS
+id: navrine-content
+```
 
-## Sponsor Postiz
+Its runtime instructions live in:
 
-We now give a few options to Sponsor Postiz:
-- Just a donation: You like what we are building, and want to buy us some coffee so we can build faster.
-- Main repository: Get your logo with a backlink from the main Postiz repository. Postiz has over 7M downloads and 20k views per month.
+```text
+libraries/nestjs-libraries/src/chat/load.tools.service.ts
+```
 
-Link: https://opencollective.com/postiz
+The registered agent key lives in:
 
-## Postiz Compliance
+```text
+libraries/nestjs-libraries/src/chat/mastra.service.ts
+```
 
-- Postiz is an open-source, self-hosted social media scheduling tool that supports platforms like X (formerly Twitter), Bluesky, Mastodon, Discord, and others.
-- Postiz hosted service uses official, platform-approved OAuth flows.
-- Postiz does not automate or scrape content from social media platforms.
-- Postiz does not collect, store, or proxy API keys or access tokens from users.
-- Postiz never asks users to paste API keys into our hosted product.
-- Postiz users always authenticate directly with the social platform (e.g., X, Discord, etc.), ensuring platform compliance and data privacy.
+NAVRINE-specific topic/category taxonomies live in:
+
+```text
+libraries/nestjs-libraries/src/agent/agent.categories.ts
+libraries/nestjs-libraries/src/agent/agent.topics.ts
+```
+
+## Default Autonomy
+
+NAVRINE Content OS uses **approval-first publishing** by default.
+
+The agent may autonomously:
+
+- research
+- generate opportunities
+- prepare briefs
+- draft content
+- adapt platform variants
+- score and revise drafts
+- propose a calendar
+
+Publishing should require confirmation unless a workspace has an explicit automation policy that defines allowed channels, formats, time windows, quality thresholds, and prohibited topics.
+
+## Content Pillars
+
+1. AI Infrastructure
+2. Engineering
+3. Data Operations
+4. Brand & Design
+5. Founder Systems
+6. Build in Public / Case Studies
+7. Market Intelligence
+
+## Core Stack
+
+Inherited from Postiz:
+
+- pnpm workspaces / monorepo
+- Next.js / React frontend
+- NestJS backend
+- Prisma + PostgreSQL
+- Redis
+- Temporal orchestration
+- Mastra agent runtime
+- LangChain / LangGraph content-generation flows
+- multi-platform social publishing infrastructure
+
+The repository requires Node.js `>=22.12.0 <23.0.0` and pnpm `10.6.1` according to the current package configuration.
+
+## Environment
+
+Start from:
+
+```bash
+cp .env.example .env
+```
+
+At minimum, configure the required database, Redis, JWT, frontend/backend URLs, storage, AI provider keys, and the OAuth credentials for social platforms you intend to connect.
+
+The existing `.env.example` documents the supported variables.
+
+## Development
+
+Install dependencies:
+
+```bash
+pnpm install
+```
+
+Run development services:
+
+```bash
+pnpm dev
+```
+
+Useful commands include:
+
+```bash
+pnpm dev-backend
+pnpm build
+pnpm build:frontend
+pnpm build:backend
+pnpm build:orchestrator
+pnpm prisma-db-push
+```
+
+For local infrastructure, see the included Docker Compose configuration.
+
+## Product Direction
+
+The next NAVRINE-specific product layers should be built around:
+
+- Content Command Center
+- Brand Brain / workspace context
+- Content Pillars and campaigns
+- Research Radar
+- Opportunity / Idea Bank
+- weekly and monthly Content Planner
+- AI Content Studio
+- platform-native repurposing
+- approval queue
+- publishing calendar
+- analytics and content-learning loop
+
+The distribution infrastructure is already present. NAVRINE's differentiated value should come from strategy, intelligence, brand memory, editorial quality, and continuous learning.
+
+## Upstream & Attribution
+
+This repository is derived from **Postiz** (`gitroomhq/postiz-app`). Postiz provides the underlying open-source social-media scheduling and publishing infrastructure.
+
+Upstream project:
+
+```text
+https://github.com/gitroomhq/postiz-app
+```
+
+Do not remove upstream copyright/license notices where required.
 
 ## License
 
-This repository's source code is available under the [AGPL-3.0 license](LICENSE).
+The inherited codebase is licensed under **AGPL-3.0**. See [`LICENSE`](./LICENSE).
 
-<br /><br />
-
-<p align="center">
-  <img src="https://github.com/snyk-labs/secure-developer-sample-repo/raw/main/badge_full.svg" alt="Secure Developer Badge Full" width="150">
-</p>
+Before using this repository as a proprietary or hosted commercial product, review the AGPL obligations applicable to your deployment and modifications.
